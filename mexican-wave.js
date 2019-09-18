@@ -1,5 +1,3 @@
-wave('he llo hi');
-
 function wave(str){
   let arr = [];
   let j=0;
@@ -24,6 +22,5 @@ function wave(str){
     arr.splice(space[j] - k, 1);
     j++;
   }
-  
-  console.log(arr);
+  return arr;
 }
